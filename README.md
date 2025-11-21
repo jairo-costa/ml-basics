@@ -62,7 +62,8 @@ Part of a comprehensive, structured plan to enter the field of artificial intell
 
 ---
 
-## Connect
+## 🔗 Connect
+
 - **GitHub:** https://github.com/jairo-costa  
 - **LinkedIn:** _to be added after profile optimization_
 
