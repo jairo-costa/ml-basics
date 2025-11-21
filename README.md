@@ -1,12 +1,7 @@
-# ML Basics
+# Machine Learning Basics
+A collection of foundational machine learning studies, notes, and practical experiments.  
+This repository is part of a long-term learning journey focused on AI, ML, LLMs, and applied intelligence.
 
-Repository dedicated to introductory Machine Learning projects developed during a 30-day portfolio-building plan.
+---
 
-This space will include:
-- Simple supervised learning models  
-- Exploratory Data Analysis (EDA)  
-- Baseline models  
-- Performance comparisons  
-- First real-world experiments  
-
-More updates coming soon.
+## Repository Structure
