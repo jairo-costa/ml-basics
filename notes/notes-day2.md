@@ -13,3 +13,6 @@
 - RLHF aligns model outputs with human expectations through preference-based training.
 - Introduction to practical prompting patterns and code interactions with the OpenAI API.
 - Reinforces the connection between theoretical concepts and real-world implementations.
+
+- Implemented a full binary classification pipeline (Logistic Regression) +
+  confusion matrix and decision boundary plot.
