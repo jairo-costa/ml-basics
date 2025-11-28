@@ -1,0 +1,11 @@
+name: project01-data-visualization-env
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - pandas>=2.0.0
+      - numpy>=1.26.0
+      - matplotlib>=3.8.0
+      - seaborn>=0.13.0
