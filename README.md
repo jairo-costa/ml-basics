@@ -1,129 +1,102 @@
-# ml-basics — Foundations of Machine Learning & Practical ML Projects
+# 📘 ML-Basics — Machine Learning Portfolio Repository
 
-This repository contains foundational Machine Learning projects and study notes developed as part of my structured AI/ML learning track.  
-The objective is to build a **solid, practical base** in Python, data preprocessing, classical ML algorithms, and introductory deep learning — applied through clean, reproducible, real-world notebooks.
+This repository contains a structured collection of introductory and intermediate Machine Learning projects, developed following professional documentation standards and a simulation of real-world Applied ML workflows.
 
-This repository evolves continuously as I progress through my AI Engineering learning plan.
+Each project in this repository is organized to reflect:
 
----
-
-## 🎯 Objectives of This Repository
-
-- Strengthen core ML fundamentals  
-- Practice end-to-end workflows (data loading → preprocessing → modeling → evaluation)  
-- Build small but meaningful ML projects for portfolio use  
-- Document insights, study notes, and personal experiments  
-- Create a strong foundation before moving into GenAI, RAG, and Agent-based systems  
+- clear technical objectives  
+- corporate-style communication (internal e-mails, requirements, decision reports)  
+- fully documented notebooks with line-by-line explanations  
+- reproducible environments  
+- incremental learning across different ML tasks  
 
 ---
 
-## 📂 Projects
+## 🗂️ Repository Structure
 
-### **Project 01 — Data Visualization & Exploration**
-A practical notebook demonstrating:
-
-- Loading and inspecting tabular datasets  
-- Exploratory Data Analysis (EDA)  
-- Visualizations using Matplotlib/Seaborn  
-- Understanding distributions, correlations, and data quality  
-
-**Folder:** `project-01-data-visualization/`  
-**Status:** Completed  
-This project serves as a warm-up for ML workflows and a reference for future analyses.
-
----
-
-### **Project 02 — CIFAR-10 Image Classifier (Deep Learning)**
-A deep learning project implementing:
-
-- CIFAR-10 dataset loading and preprocessing  
-- A simple baseline CNN architecture  
-- Training, validation, and test evaluation  
-- Accuracy and loss curves  
-- Reproducible TensorFlow pipeline  
-
-**Folder:** `project-02-cifar10-classifier/`  
-**Status:** Completed  
-This project builds the bridge between classical ML and modern deep learning.
-
----
-
-## 🧰 Tech Stack
-
-- **Python 3.10+**  
-- **NumPy**  
-- **Pandas**  
-- **Matplotlib / Seaborn**  
-- **Scikit-learn**  
-- **TensorFlow / Keras**  
-- Jupyter Notebooks  
-
-The stack may evolve as new projects are added.
-
----
-
-## 🗂 Repository Structure
-
-```
 ml-basics/
 │
-├── project-01-data-visualization/
-│   ├── 01-data-visualization.ipynb
-│   ├── README.md
-│   ├── requirements.txt
-│   └── environment.yml
+├── notebooks/
+│ ├── project-01-data-visualization/
+│ │ ├── project-01-data-visualization.ipynb
+│ │ └── README.md
+│ │
+│ ├── project-02-cifar10-classifier/
+│ │ ├── 01-cifar10-baseline-fully-connected.ipynb
+│ │ └── README.md
+│ │
+│ ├── project-04-eta-prediction/
+│ │ ├── data/
+│ │ │ └── eta_dataset.csv
+│ │ ├── project-04-eta-prediction.ipynb
+│ │ ├── README.md
+│ │ └── requirements.txt
+│ │
+│ └── notes/
+│ ├── notes-day1.md
+│ ├── notes-day2.md
+│ └── README.md
 │
-├── project-02-cifar10-classifier/
-│   ├── 02-cifar10-baseline.ipynb
-│   ├── README.md
-│   ├── requirements.txt
-│   └── environment.yml
-│
-├── notes/
-│   ├── notes-day1.md
-│   ├── notes-day2.md
-│   └── README.md
-│
-└── README.md   ← (this file)
-```
+└── README.md ← (you are here)
+
 
 ---
 
-## 🚀 Roadmap
+## 📚 Project Summaries
 
-Upcoming additions to this repository:
+### **Project 01 — Data Visualization**
+Exploratory Data Analysis using Seaborn/Matplotlib with a structured interpretation workflow.  
+Focus: clarity, EDA pipeline, and communication of insights.
 
-- **[ ] Project 03 — ML Pipeline with Scikit-learn**  
-- **[ ] Project 04 — Regression model (real-world dataset)**  
-- **[ ] Project 05 — Classification with model comparison (SVM, RF, XGBoost)**  
-- **[ ] Visualization utilities (reusable templates)**  
-- **[ ] Notes on Statistics for Machine Learning**  
+---
 
-Completed projects will be linked above.
+### **Project 02 — CIFAR-10 Baseline Classifier**
+Image classification using a fully connected neural network as a baseline.  
+Focus: model interpretation, baseline creation, training curves, and corporate-style reporting.
+
+---
+
+### **Project 04 — ETA Prediction (Regression Model)**
+Delivery ETA prediction using a synthetic logistics-like dataset stored in `data/eta_dataset.csv`.  
+Implements a regression pipeline comparing:
+
+- Linear Regression  
+- Random Forest  
+- Gradient Boosting  
+- optional XGBoost  
+
+Includes business-oriented interpretation and model diagnostics.
 
 ---
 
 ## 📝 Notes Section
 
-The `notes/` directory contains:
+The `notes/` folder contains conceptual notes, study diaries, and technical reflections produced during development.  
+It serves as supplementary learning material and knowledge consolidation.
 
-- Study notes  
-- Insights from MIT Introduction to Deep Learning  
-- Takeaways from DeepLearningAI short courses  
-- Reflections and workflow improvements  
+---
 
-This folder is meant to support learning and future explanations in blog posts or LinkedIn publications.
+## ▶️ How to Run the Projects
+
+### Using Codespaces (recommended)
+
+%pip install -r requirements.txt
+
+
+Then open each notebook inside `notebooks/project-XX/...` and run the cells sequentially.
+
+### Local environment
+
+pip install pandas numpy matplotlib seaborn scikit-learn xgboost
+
 
 ---
 
 ## 👤 Author
 
 **Jairo Costa**  
-AI Student • Machine Learning & GenAI Engineering  
-Building a practical portfolio through structured, real-world projects.
-
-LinkedIn: https://www.linkedin.com/in/jairo-costa-ai  
-GitHub: https://github.com/jairo-costa  
+🔗 LinkedIn: https://www.linkedin.com/in/jairo-costa-0472b839a/  
+🔗 Hugging Face: https://huggingface.co/Jairo-Costa
 
 ---
 
